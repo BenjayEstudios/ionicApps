@@ -4,10 +4,14 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">welcome</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
+
+<ion-content>
+  <div class="container">
+    <h1 class="titulo">¡Bienvenido!</h1>
+    <p class="sub-titulo">Conoce a otros estudiantes que comparten tus intereses y haz nuevas conexiones.</p>
+    <button [routerLink]="['/sign-in']" class="btn btn-duoc1">Iniciar sesión</button>
+    <button [routerLink]="['/sign-up']" class="btn btn-outline-duoc1">Crear cuenta</button>
+  </div>
 </ion-content>
+ 
