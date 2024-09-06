@@ -11,3 +11,27 @@
     </ion-toolbar>
   </ion-header>
 </ion-content> -->
+<ion-content>
+  <div class="container">
+    <h1 class="titulo">Crear cuenta</h1>
+    <p class="sub-titulo">¡Hola, crea tu cuenta para continuar!</p>
+    <div class="input-field">
+      <input type="text" required spellcheck="false">
+      <label>Nombre de usuario</label>
+    </div>
+    <div class="input-field">
+      <input type="text" required spellcheck="false">
+      <label>Correo electrónico</label>
+    </div>
+
+    <div class="input-field">
+      <input type="password" required spellcheck="false">
+      <label>Contraseña</label>
+    </div>
+    <div class="link-simple">
+      <!-- <a [routerLink]="['/forgot-pass']">¿Olvidaste tu contraseña?</a> -->
+    </div>
+    <button [routerLink]="['/confirmation-email']" class="btn btn-duoc1">Siguiente</button>
+    
+  </div>
+</ion-content> 

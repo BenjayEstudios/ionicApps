@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
+  {
+    path: 'confirmation-email',
+    loadChildren: () => import('./confirmation-email/confirmation-email.module').then( m => m.ConfirmationEmailPageModule)
+  },
 ];
 
 @NgModule({

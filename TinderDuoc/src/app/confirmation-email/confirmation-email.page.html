@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>confirmation_email</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <h1 class="titulo">Ingrese código de confirmación</h1>
+    <p class="sub-titulo">Ingrese código de confirmación que enviamos a [correo elctronico]</p>
+    <div class="input-field">
+      <input type="text" required spellcheck="false">
+      <label>Nombre de usuario</label>
+    </div>
+    <div class="link-simple"></div>
+    <button [routerLink]="['/confirmation-email']" class="btn btn-duoc1">Confirmar</button>
+    
+  </div>
+</ion-content> 
