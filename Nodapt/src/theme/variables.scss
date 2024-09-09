@@ -14,6 +14,13 @@
 	--ion-monster-contrast-rgb: 0,0,0;
 	--ion-monster-shade: #83bc00;
 	--ion-monster-tint: #a0da1a;
+	/*Gatorade*/
+	--ion-gatorade: #8b0bd0;
+	--ion-gatorade-rgb: 139,11,208;
+	--ion-gatorade-contrast: #ffffff;
+	--ion-gatorade-contrast-rgb: 255,255,255;
+	--ion-gatorade-shade: #7a0ab7;
+	--ion-gatorade-tint: #9723d5;
 }
 *{    font-family: "Lora", serif;font-optical-sizing: auto;font-weight: 200;font-style: normal;  }
 /*--- ---------------- ---*/
@@ -106,4 +113,7 @@
     color: var(--ion-monster);    
 }
 /*--- ---------------- ---*/
-
+.btn-gatorade{
+    background-color: var(--ion-gatorade);
+    color: var(--ion-gatorade-contrast);
+}
