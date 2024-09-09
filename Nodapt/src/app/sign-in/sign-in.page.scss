@@ -2,7 +2,7 @@
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom:25%;
+    top:10%;
 }
 .logo{
     width: 20vh;
@@ -10,7 +10,9 @@
     margin: auto;
 }
 .logo .titulo{
-    font-size: 2em;
+    font-size: 1.2em;
+    letter-spacing: 8px;
+    white-space: nowrap;
     font-style: italic;
     font-weight: 100;
 }
