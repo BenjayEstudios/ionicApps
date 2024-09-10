@@ -50,7 +50,8 @@ const routes: Routes = [
   {
     path: 'add-producto',
     loadChildren: () => import('./add-producto/add-producto.module').then( m => m.AddProductoPageModule)
-  },  {
+  },
+  {
     path: 'edit-cliente',
     loadChildren: () => import('./edit-cliente/edit-cliente.module').then( m => m.EditClientePageModule)
   },
